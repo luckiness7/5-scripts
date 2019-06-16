@@ -41,12 +41,5 @@ class maSignal():
             resSignal = 0
         return maCrossSignal, resSma, resLma
     
-    def filterLowAtr(self, am, paraDict):
-        atrPeriod = paraDict["atrPeriod"]
-        lowVolThreshold = paraDict["lowVolThreshold"]
-
-        # 过滤超小波动率
-        atr = ta.ATR(am.high, am.low, am.close, atrPeriod)
-        filterCanTrade = 1 if atr[-1]>am.close[-1]*lowVolThreshold else 0
-        return filterCanTrade
+   
         
