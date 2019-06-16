@@ -1,0 +1,38 @@
+{
+    "timeframeMap": {
+        "envPeriod": "30m",
+        "signalPeriod": "15m"
+    },
+    "symbolList": [
+        "IF88:CTP"
+    ],
+    "barPeriod": 150,
+    "envPeriod": 100,
+    "fastPeriod": 5,
+    "slowPeriod": 30,
+    "stoplossPct": 0.03,
+    "lot": 10,
+    "startDate": "2016-06-03",
+    "endDate": "2019-02-25",
+    "totalDays": 663,
+    "profitDays": 208,
+    "lossDays": 273,
+    "endBalance": 997140.1525999999,
+    "maxDrawdown": -9828.87639999995,
+    "maxDdPercent": -0.9825483699780351,
+    "totalNetPnl": -2859.847400000044,
+    "dailyNetPnl": -4.313495324283626,
+    "totalCommission": 8477.6474,
+    "dailyCommission": 12.786798491704374,
+    "totalSlippage": 2415.0,
+    "dailySlippage": 3.6425339366515836,
+    "totalTurnover": 16955294.8,
+    "dailyTurnover": 25573.59698340875,
+    "totalTradeCount": 483,
+    "dailyTradeCount": 0.7285067873303167,
+    "totalReturn": -0.2859847400000115,
+    "annualizedReturn": -0.10352388778280959,
+    "dailyReturn": -0.00043134953242836304,
+    "returnStd": 0.030540748059067566,
+    "sharpeRatio": -0.21880401256162438
+}
